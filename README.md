@@ -10,3 +10,4 @@ A telegram play store search bot
 - `BOT_TOKEN` Your bot token from @BotFather
 
 ---
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
