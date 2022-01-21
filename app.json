@@ -1,0 +1,22 @@
+{
+    "name": "Play-Store-Bot",
+    "stack": "container",
+    "env": {
+        "API_HASH": {
+            "description": "API HASH"
+        },
+        "API_ID": {
+            "description": "api id"
+        },
+        "BOT_TOKEN": {
+            "description": "bot token"
+
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
