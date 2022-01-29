@@ -17,8 +17,8 @@ async def filter_all(bot, update):
     text = "Search play store apps using below buttons.\n\nMade by @FayasNoushad"
     reply_markup = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="Search here", switch_inline_query_current_chat="")],
-            [InlineKeyboardButton(text="Search in another chat", switch_inline_query="")]
+            [InlineKeyboardButton(text="Burada ara", switch_inline_query_current_chat="")],
+            [InlineKeyboardButton(text="Başka bir sohbette ara", switch_inline_query="")]
         ]
     )
     await update.reply_text(
