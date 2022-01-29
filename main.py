@@ -14,7 +14,7 @@ Bot = Client(
 
 @Bot.on_message(filters.private & filters.all)
 async def filter_all(bot, update):
-    text = "Search play store apps using below buttons.\n\nMade by @FayasNoushad"
+    text = "Aşağıdaki butonları kullanarak play store arama yapa bilirsiniz.\n\n🐧 @b4f2f"
     reply_markup = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton(text="Burada ara", switch_inline_query_current_chat="")],
