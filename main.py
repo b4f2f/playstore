@@ -40,10 +40,10 @@ async def search(bot, update):
         "**Geliştirici:** `{}`".format(result["developer"]) + "\n" \
         "**Geliştirici Kimliği:** `{}`".format(result["developer_id"]) + "\n" \
         "**Puan:** `{}`".format(result["score"]) + "\n" \
-        "**Price:** `{}`".format(result["price"]) + "\n" \
-        "**Full Price:** `{}`".format(result["full_price"]) + "\n" \
-        "**Free:** `{}`".format(result["free"]) + "\n" \
-        "\n" + "Made by @FayasNoushad"
+        "**Fiyat:** `{}`".format(result["price"]) + "\n" \
+        "**Tam Fiyat:** `{}`".format(result["full_price"]) + "\n" \
+        "**Ücretsiz:** `{}`".format(result["free"]) + "\n" \
+        "\n" + "Geliştirici @b4f2f"
         reply_markup = InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="Play Store", url="https://play.google.com"+result["url"])]]
         )
